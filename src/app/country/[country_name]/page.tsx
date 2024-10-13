@@ -1,7 +1,3 @@
-            
-import image from "next/image"; 
-import styles from "./page.module.css";
-
 export default function CountryName({ params }: any) {
     const countries: {
         name: string;
